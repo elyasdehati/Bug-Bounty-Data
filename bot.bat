@@ -4,5 +4,5 @@ echo random %random% >> notes.txt
 git add .
 git commit -m "update: %date% %time%"
 git push
-timeout /t 10
+timeout /t 180
 goto loop
